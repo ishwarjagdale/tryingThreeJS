@@ -33,6 +33,18 @@
 
 		body {
 			margin: 0;
+			overflow: auto;
+		}
+
+		.bg {
+			background-image: url("/a.png");
+			background-size: cover;
+		}
+
+		polygon {
+			stroke: rgba(255, 255, 255, 0.3);
+			stroke-width: 1px;
+            fill: #34344391;
 		}
 
          .material-symbols-outlined {
@@ -42,12 +54,15 @@
                      'GRAD' 0,
                      'opsz' 24
          }
+
+		 .dest {
+			 fill: mediumseagreen!important;
+		 }
 	</style>
 </head>
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="root"></div>
-<div id="three"></div>
 <!--
   This HTML file is a template.
   If you open it directly in the browser, you will see an empty page.
